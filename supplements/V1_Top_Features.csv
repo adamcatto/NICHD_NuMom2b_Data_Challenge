@@ -1,0 +1,56 @@
+Feature,Feature Importance,Description
+V1BA06a1,0.0520,(V1B) Resting blood pressure - Systolic (mm Hg) measure 1
+BMI,0.0478,BMI (kg/m^2) at visit 1 calculated from height and weight (form V1B)
+V1BA04a,0.0461,(V1B) Waist circumference over iliac crest - Measure 1 (cm)
+MAP_V1,0.0411,(V1 Systolic BP + 2 * V1 Diastolic BP)/3
+V1BA07a,0.0401,(V1B) Neck circumference - Measure 1 (cm)
+ENDOGLIN,0.0290,Endoglin (ng/mL)
+CLAC01f2,0.0269,(CLA) Inhibin A (DIA) Results - Multiples of the median (MoM)
+DT_PFAT,0.0267,"Polyunsaturated fatty acids, grams"
+VEGF,0.0248,Vascular endothelial growth factor (VEGF) (pg/mL)
+AFP,0.0233,Alpha fetoprotein (AFP) (IU/mL)
+ADAM12,0.0227,ADAM-12 (ng/mL)
+DT_SFAT,0.0226,"Saturated fat, grams"
+DT_CHOL,0.0221,"Cholesterol, mg"
+VXXB01aa_V1a,0.0202,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Condition noted, Visit 1"
+VXXB01ar_V1a,0.0201,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Condition noted, Visit 1"
+U1CD07,0.0198,(U1C) Right Uterine Artery - Pulsatility Index (PI)
+DT_MFAT,0.0195,"Monounsaturated fatty acids, grams"
+Age_at_V1,0.0195,Age (years) at visit 1 calculated from DOB (V1AB01) and the form completion date
+CLAB02d1b,0.0191,(CLA) First trimester serum screen PAPP-A Results - μU/mL
+fbHCG,0.0188,Free beta human chorionic gonadotropin (fbHCG) (ng/mL)
+V2AE06e,0.0187,"(V2A) Have any of your biological mother, sisters, half-sisters, or female first cousins ever had pregnancy complications - Preeclampsia, eclampsia, toxemia or pregnancy induced hypertension"
+INHIBINA,0.0187,Inhibin A (pg/mL)
+V1BA06b1,0.0184,(V1B) Resting blood pressure - Diastolic (mm Hg) measure 1
+CLAC01f1,0.0180,(CLA) Inhibin A (DIA) Results - Value pg/mL
+CLAA01d,0.0169,(CLA) Complete blood count - Platelet count x10 3 /mm 3 (x10 3 μL)
+U1CC07,0.0168,(U1C) Left Uterine Artery - Pulsatility Index (PI)
+CLAB02d2,0.0165,(CLA) First trimester serum screen PAPP-A Results - Multiples of the median (MoM)
+U1CC06,0.0161,(U1C) Left Uterine Artery - Resistance Index (RI)
+Race,0.0161,Race/ethnicity category derived from V1AF05 and V1AF07a-g
+CLAB02d1d,0.0160,(CLA) First trimester serum screen PAPP-A Results - ng/mL
+U1CC09,0.0158,(U1C) Left Uterine Artery - Early diastolic notch present
+U1CD06,0.0157,(U1C) Right Uterine Artery - Resistance Index (RI)
+U1CD09,0.0152,(U1C) Right Uterine Artery - Early diastolic notch present
+VXXB01ae_V1a,0.0150,"(VXX) Medical conditions or diagnoses, Diabetes (excluding gestational diabetes in a prior pregnancy) - Condition noted, Visit 1"
+VXXB01bc3_V1a,0.0150,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Condition noted, Visit 1"
+V1AE01,0.0141,"(V1A) Including this pregnancy, how many times have you been pregnant - number of pregnancies"
+VXXB01al_V1a,0.0140,"(VXX) Medical conditions or diagnoses, Kidney disease - Condition noted, Visit 1"
+VXXB01az_V1a,0.0136,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Recent use of medication, Visit 1"
+VXXB01ak_V1a,0.0135,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Condition noted, Visit 1"
+CLAE08a1,0.0123,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Total protein (mg/24hr) (a)
+CLAB02d1a,0.0120,(CLA) First trimester serum screen PAPP-A Results - IU/mL
+V1LF01a,0.0118,(V1L) Have you ever been told by a doctor or other health professionals that you have - Sleep apnea or obstructive sleep apnea
+CLAB02d1c,0.0117,(CLA) First trimester serum screen PAPP-A Results - μg/mL
+VXXB01aq_V1a,0.0109,"(VXX) Medical conditions or diagnoses, Anemia - Recent use of medication, Visit 1"
+VXXB01au_V1a,0.0108,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Condition noted, Visit 1"
+VXXB01ai_V1a,0.0103,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Condition noted, Visit 1"
+VXXB01ah_V1a,0.0103,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Condition noted, Visit 1"
+VXXB01av_V1a,0.0101,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Recent use of medication, Visit 1"
+VXXB01ap_V1a,0.0089,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Condition noted, Visit 1"
+CLAE08a2,0.0086,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Total creatinine (mg/24hr)
+VXXB01at_V1a,0.0057,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 1"
+VXXB01aj_V1a,0.0050,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Condition noted, Visit 1"
+VXXB01an_V1a,0.0048,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Recent use of medication, Visit 1"
+CLAE08b1b,0.0005,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Result (mg/g) (b)
+CLAE08b1a,0.0000,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Result (g/g or no units) (b)

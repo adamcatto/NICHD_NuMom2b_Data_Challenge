@@ -1,0 +1,102 @@
+Feature,Feature Importance,Description
+BMI,0.0259,BMI (kg/m^2) at visit 1 calculated from height and weight (form V1B)
+VXXB01ar_V2a,0.0246,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Condition noted, Visit 2"
+MAP_V1,0.0231,(V1 Systolic BP + 2 * V1 Diastolic BP)/3
+V1BA04a,0.0219,(V1B) Waist circumference over iliac crest - Measure 1 (cm)
+V1BA07a,0.0210,(V1B) Neck circumference - Measure 1 (cm)
+U2CD09,0.0209,(U2C) Right Uterine Artery - Early diastolic notch present
+V2BA02a1,0.0196,(V2B) Resting blood pressure - Systolic measure 1 (mmHg)
+MAP_V2,0.0187,(V2 Systolic BP + 2 * V2 Diastolic BP)/3
+V1BA06a1,0.0171,(V1B) Resting blood pressure - Systolic (mm Hg) measure 1
+ENDOGLIN_1,0.0164,Endoglin (ng/mL)
+ENDOGLIN,0.0162,Endoglin (ng/mL)
+U2CC09,0.0161,(U2C) Left Uterine Artery - Early diastolic notch present
+VXXB01ah_V2a,0.0155,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Condition noted, Visit 2"
+U2CC05,0.0151,(U2C) Left Uterine Artery - Systolic/Diastolic Ratio (S/D)
+VXXB01ap_V2a,0.0146,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Condition noted, Visit 2"
+INHIBINA_1,0.0142,Inhibin A (pg/mL)
+VXXB01aa_V2a,0.0140,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Condition noted, Visit 2"
+U2CC07,0.0139,(U2C) Left Uterine Artery - Pulsatility Index (PI)
+PLGF_1,0.0136,Placental growth factor (PLGF) (pg/mL)
+VXXB01ak_V2a,0.0134,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Condition noted, Visit 2"
+CLAC01f2,0.0134,(CLA) Inhibin A (DIA) Results - Multiples of the median (MoM)
+DT_PFAT,0.0133,"Polyunsaturated fatty acids, grams"
+VXXB01az_V2a,0.0131,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Recent use of medication, Visit 2"
+VEGF_1,0.0128,Vascular endothelial growth factor (VEGF) (pg/mL)
+DT_SFAT,0.0127,"Saturated fat, grams"
+U2BC01,0.0121,(U2B) Disclosable condition
+V2BA02b1,0.0118,(V2B) Resting blood pressure - Diastolic measure 1 (mmHg)
+CLAA01d,0.0115,(CLA) Complete blood count - Platelet count x10 3 /mm 3 (x10 3 μL)
+PLGF,0.0115,Placental growth factor (PLGF) (pg/mL)
+U2CD06,0.0113,(U2C) Right Uterine Artery - Resistance Index (RI)
+SFLT1,0.0112,sFlt-1 (pg/mL)
+PAPPA_1,0.0112,Pregnancy-associated plasma protein A (PAPP-A) (mU/mL)
+V1BA06b1,0.0111,(V1B) Resting blood pressure - Diastolic (mm Hg) measure 1
+VXXB01aa_V1a,0.0110,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Condition noted, Visit 1"
+VXXB01ai_V2a,0.0109,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Condition noted, Visit 2"
+PAPPA,0.0108,Pregnancy-associated plasma protein A (PAPP-A) (mU/mL)
+CLAB02d2,0.0107,(CLA) First trimester serum screen PAPP-A Results - Multiples of the median (MoM)
+U2CC04,0.0107,(U2C) Left Uterine Artery - Peak Systolic Velocity (PSV) (cm/sec)
+AFP_1,0.0107,Alpha fetoprotein (AFP) (IU/mL)
+U1CC06,0.0107,(U1C) Left Uterine Artery - Resistance Index (RI)
+VEGF,0.0107,Vascular endothelial growth factor (VEGF) (pg/mL)
+Age_at_V1,0.0106,Age (years) at visit 1 calculated from DOB (V1AB01) and the form completion date
+fbHCG_1,0.0105,Free beta human chorionic gonadotropin (fbHCG) (ng/mL)
+CLAB02d1b,0.0105,(CLA) First trimester serum screen PAPP-A Results - μU/mL
+DT_MFAT,0.0103,"Monounsaturated fatty acids, grams"
+U1CD06,0.0103,(U1C) Right Uterine Artery - Resistance Index (RI)
+INHIBINA,0.0103,Inhibin A (pg/mL)
+V2AE06e,0.0102,"(V2A) Have any of your biological mother, sisters, half-sisters, or female first cousins ever had pregnancy complications - Preeclampsia, eclampsia, toxemia or pregnancy induced hypertension"
+ADAM12,0.0102,ADAM-12 (ng/mL)
+ADAM12_1,0.0101,ADAM-12 (ng/mL)
+Systolic_CHG_V2,0.0101,(V2 BP / V1 BP) - 1
+AFP,0.0101,Alpha fetoprotein (AFP) (IU/mL)
+DT_CHOL,0.0099,"Cholesterol, mg"
+SFLT1_1,0.0099,Soluble fms-like tyrosine kinase 1 (sFlt-1) (pg/mL)
+VXXB01aj_V2a,0.0098,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Condition noted, Visit 2"
+U2CC06,0.0097,(U2C) Left Uterine Artery - Resistance Index (RI)
+VXXB01al_V2a,0.0097,"(VXX) Medical conditions or diagnoses, Kidney disease - Condition noted, Visit 2"
+Diastolic_CHG_V2,0.0094,(V2 BP / V1 BP) - 1
+CLAC01f1,0.0094,(CLA) Inhibin A (DIA) Results - Value pg/mL
+U2CD07,0.0093,(U2C) Right Uterine Artery - Pulsatility Index (PI)
+U1CD07,0.0093,(U1C) Right Uterine Artery - Pulsatility Index (PI)
+CLAB02d1c,0.0091,(CLA) First trimester serum screen PAPP-A Results - μg/mL
+VXXB01ae_V1a,0.0085,"(VXX) Medical conditions or diagnoses, Diabetes (excluding gestational diabetes in a prior pregnancy) - Condition noted, Visit 1"
+fbHCG,0.0083,Free beta human chorionic gonadotropin (fbHCG) (ng/mL)
+VXXB01aq_V2a,0.0081,"(VXX) Medical conditions or diagnoses, Anemia - Recent use of medication, Visit 2"
+V1AE01,0.0080,"(V1A) Including this pregnancy, how many times have you been pregnant - number of pregnancies"
+VXXB01av_V2a,0.0077,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Recent use of medication, Visit 2"
+U1CD09,0.0076,(U1C) Right Uterine Artery - Early diastolic notch present
+VXXB01bc3_V2a,0.0075,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Condition noted, Visit 2"
+CLAB02d1d,0.0074,(CLA) First trimester serum screen PAPP-A Results - ng/mL
+VXXB01bc3_V1a,0.0074,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Condition noted, Visit 1"
+VXXB01az_V1a,0.0073,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Recent use of medication, Visit 1"
+VXXB01ae1_V2a,0.0071,"(VXX) Medical conditions or diagnoses, Diabetes, onset during pregnancy (gestational diabetes) - Condition noted, Visit 2"
+U1CC07,0.0069,(U1C) Left Uterine Artery - Pulsatility Index (PI)
+Race,0.0068,Race/ethnicity category derived from V1AF05 and V1AF07a-g
+CLAB02d1a,0.0066,(CLA) First trimester serum screen PAPP-A Results - IU/mL
+VXXB01at_V2a,0.0066,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 2"
+VXXB01an_V2a,0.0061,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Recent use of medication, Visit 2"
+V1LF01a,0.0060,(V1L) Have you ever been told by a doctor or other health professionals that you have - Sleep apnea or obstructive sleep apnea
+CLAE08a1,0.0058,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Total protein (mg/24hr) (a)
+U1CC09,0.0056,(U1C) Left Uterine Artery - Early diastolic notch present
+VXXB01ak_V1a,0.0056,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Condition noted, Visit 1"
+VXXB01ar_V1a,0.0052,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Condition noted, Visit 1"
+VXXB01al_V1a,0.0052,"(VXX) Medical conditions or diagnoses, Kidney disease - Condition noted, Visit 1"
+VXXB01au_V1a,0.0050,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Condition noted, Visit 1"
+VXXB01aq_V1a,0.0049,"(VXX) Medical conditions or diagnoses, Anemia - Recent use of medication, Visit 1"
+CLAE08a2,0.0044,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Total creatinine (mg/24hr)
+VXXB01ap_V1a,0.0042,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Condition noted, Visit 1"
+VXXB01av_V1a,0.0040,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Recent use of medication, Visit 1"
+PAPPAc,0.0038,Pregnancy-associated plasma protein A (PAPP-A) values categorized
+VXXB01au_V2a,0.0037,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Condition noted, Visit 2"
+VXXB01ah_V1a,0.0034,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Condition noted, Visit 1"
+VXXB01ai_V1a,0.0033,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Condition noted, Visit 1"
+VXXB01an_V1a,0.0014,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Recent use of medication, Visit 1"
+VXXB01aj_V1a,0.0012,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Condition noted, Visit 1"
+VXXB01at_V1a,0.0007,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 1"
+CLAE08b1b,0.0006,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Result (mg/g) (b)
+PLGFc,0.0002,Placental growth factor (PLGF) values categorized
+CLAE08b1a,0.0000,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Result (g/g or no units) (b)
+SFLT1c,0.0000,sFlt-1 values categorized
+VXXB01ay_V2a,0.0000,"(VXX) Medical conditions or diagnoses, Cholestasis of pregnancy - Condition noted, Visit 2"
