@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 
-RAW_CHALLENGE_PATH = "../data/nuMoM2b_Dataset_NICHD Data Challenge.csv"
-PRESELECTED_FEATURE_PATH  = "preeclampsia_features.csv"
-OUTPUT_PATH = "../data/"
+RAW_CHALLENGE_PATH = "./data/nuMoM2b_Dataset_NICHD Data Challenge.csv"
+PRESELECTED_FEATURE_PATH  = "./preprocessing/preeclampsia_features.csv"
+OUTPUT_PATH = "./data/"
 
 def get_raw_data():
     data = pd.read_csv(RAW_CHALLENGE_PATH, na_values=["M","D","R","S","E","N"])

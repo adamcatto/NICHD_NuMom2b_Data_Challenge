@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix
 
 def fairness_check(subgroup_df, visit, classifier, bias_feature, privileged, optional_threshold, remove_subgroup):
     
-    directory = "../result/visit{}/{}/".format(visit, classifier)
+    directory = "./result/visit{}/{}/".format(visit, classifier)
 
     
     metrics = ["eop", "ppr", "per", "aer", "spr"]
@@ -55,7 +55,7 @@ def fairness_check(subgroup_df, visit, classifier, bias_feature, privileged, opt
 
 def parity_loss(subgroup_df, visit, classifier, bias_feature, privileged, threshold, optional_threshold, remove_subgroup):
     
-    directory = "../result/visit{}/{}/".format(visit, classifier)
+    directory = "./result/visit{}/{}/".format(visit, classifier)
 
     subgroup_list, subgroup_confusion_matrix = merge_result(subgroup_df, directory, bias_feature, threshold, optional_threshold)
 
@@ -155,8 +155,8 @@ def merge_result(subgroup_df, directory, bias_feature, threshold, optional_thres
 
 
 
-def get_fairness_graphs(visit, classifier):
-    subgroup_df = pd.read_csv("../data/V{}.csv".format(visit))
+def get_fairness_graphs(visit, classifier, optional_threshold):
+    subgroup_df = pd.read_csv("./data/V{}.csv".format(visit))
 
     race_map = {1: "White",
                 2: "Black",
@@ -169,11 +169,11 @@ def get_fairness_graphs(visit, classifier):
                 9: "Other"}
 
     subgroup_df["Race"] = subgroup_df.Race.map(race_map)
-    fairness_check(subgroup_df, visit, classifier, "Race", "White", {}, "Other")
+    fairness_check(subgroup_df, visit, classifier, "Race", "White", optional_threshold, "Other")
 
 
 def plot_parity_loss(visit, classifier, race):
-    subgroup_df = pd.read_csv("../data/V{}.csv".format(visit))
+    subgroup_df = pd.read_csv("./data/V{}.csv".format(visit))
 
     race_map = {1: "White",
                 2: "Black",
@@ -219,8 +219,8 @@ def plot_parity_loss(visit, classifier, race):
         plt.plot(x, y, label=metric_map[metric])
     
     plt.vlines(0.5, 0, 4, linestyles= "--", label= "Original Threshold", color="gray", alpha=0.3)
-    # plt.vlines(0.52, 0, 4, linestyles= "--", label= "Optimal Threshold", color="r", alpha=0.3)
-    # plt.text(x=0.55, y=3.8, s='minimum: {}'.format(0.52), alpha=0.7, color='#334f8d')
+    plt.vlines(0.52, 0, 4, linestyles= "--", label= "Optimal Threshold", color="r", alpha=0.3)
+    plt.text(x=0.55, y=3.8, s='minimum: {}'.format(0.52), alpha=0.7, color='#334f8d')
 
     plt.xlabel("Threshold for {} Race, Other Race Threshold Constant".format(race))
     plt.ylabel("Parity Loss")
@@ -233,7 +233,15 @@ def plot_parity_loss(visit, classifier, race):
 
 
 if __name__ == "__main__":
-    get_fairness_graphs(2, "xgb")
-    plot_parity_loss(2, "xgb", "Black")
+
+    visit = 2
+    model  = "xgb"
+
+    get_fairness_graphs(visit, model, {})
+
+    # run parity loss plot
+    plot_parity_loss(visit, model, "Black")
+
+    get_fairness_graphs(visit, model, {"Black":0.52})
 
 
