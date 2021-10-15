@@ -1,0 +1,191 @@
+Category,Feature in numom2b,visit1,visit 2,visit 3,visit 4,Description
+proteinuria,CLAE08b1a,1,0,0,0,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Result (g/g or no units) (b)
+proteinuria,CLAE08a1,1,0,0,0,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Total protein (mg/24hr) (a)
+creatinine concentration,CLAE08a2,1,0,0,0,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Total creatinine (mg/24hr)
+proteinuria,CLAE08b1b,1,0,0,0,(CLA) First formal proteinuria quantification (if done prior to 20/0 weeks project EGA) - Result (mg/g) (b)
+PAPPA ,CLAB02d1a,1,0,0,0,(CLA) First trimester serum screen PAPP-A Results - IU/mL
+PAPPA ,CLAB02d1b,1,0,0,0,(CLA) First trimester serum screen PAPP-A Results - μU/mL
+PAPPA ,CLAB02d1c,1,0,0,0,(CLA) First trimester serum screen PAPP-A Results - μg/mL
+PAPPA ,CLAB02d1d,1,0,0,0,(CLA) First trimester serum screen PAPP-A Results - ng/mL
+PAPPA ,CLAB02d2,1,0,0,0,(CLA) First trimester serum screen PAPP-A Results - Multiples of the median (MoM)
+PAPPA,PAPPA,1,0,0,0,Pregnancy-associated plasma protein A (PAPP-A) (mU/mL)
+PAPPAc,PAPPAc,1,0,0,0,Pregnancy-associated plasma protein A (PAPP-A) values categorized
+PLGF,PLGF,1,0,0,0,Placental growth factor (PLGF) (pg/mL)
+PLGFc,PLGFc,1,0,0,0,Placental growth factor (PLGF) values categorized
+SFLT1,SFLT1,1,0,0,0,sFlt-1 (pg/mL)
+SFLT1c,SFLT1c,1,0,0,0,sFlt-1 values categorized
+BMI,BMI,1,0,0,0,BMI (kg/m^2) at visit 1 calculated from height and weight (form V1B)
+Maternal Age,Age_at_V1,1,0,0,0,Age (years) at visit 1 calculated from DOB (V1AB01) and the form completion date
+Race,Race,1,0,0,0,Race/ethnicity category derived from V1AF05 and V1AF07a-g
+V2AE06e,V2AE06e,1,0,0,0,"(V2A) Have any of your biological mother, sisters, half-sisters, or female first cousins ever had pregnancy complications - Preeclampsia, eclampsia, toxemia or pregnancy induced hypertension"
+S02C01,S02C01,0,0,0,1,(S02) Assisted reproduction for this pregnancy
+Diabetes (excluding gestational),VXXB01ae_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Diabetes (excluding gestational diabetes in a prior pregnancy) - Final Assessment: Condition present"
+Diabetes (excluding gestational),VXXB01ae_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Diabetes (excluding gestational diabetes in a prior pregnancy) - Condition noted, Visit 1"
+Diabetes (excluding gestational),VXXB01ae1_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Diabetes, onset during pregnancy (gestational diabetes) - Condition noted, Visit 2"
+Diabetes (excluding gestational),VXXB01ae1_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Diabetes, onset during pregnancy (gestational diabetes) - Condition noted, Visit 3"
+Diabetes (excluding gestational),VXXB01ae_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Diabetes (excluding gestational diabetes in a prior pregnancy) - Condition noted, Visit 4"
+Diabetes,VXXB01ae1_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Diabetes, onset during pregnancy (gestational diabetes) - Condition noted, Visit 2"
+Diabetes,VXXB01ae1_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Diabetes, onset during pregnancy (gestational diabetes) - Condition noted, Visit 2"
+Diabetes,VXXB01ae1_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Diabetes, onset during pregnancy (gestational diabetes) - Condition noted, Visit 3"
+Diabetes,VXXB01ae1_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Diabetes, onset during pregnancy (gestational diabetes) - Condition noted, Visit 4"
+Lupus,VXXB01au_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Condition noted, Visit 1"
+Lupus,VXXB01au_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Condition noted, Visit 2"
+Lupus,VXXB01au_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Condition noted, Visit 3"
+Lupus,VXXB01au_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Condition noted, Visit 4"
+Lupus,VXXB01au_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Systemic lupus erythematosus (SLE) - Final Assessment: Condition present"
+Antiophospholipid antibody syndrome,VXXB01at_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 1"
+Antiophospholipid antibody syndrome,VXXB01at_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 2"
+Antiophospholipid antibody syndrome,VXXB01at_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 3"
+Antiophospholipid antibody syndrome,VXXB01at_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 4"
+Antiophospholipid antibody syndrome,VXXB01at_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Final Assessment: Condition present"
+Polycystic ovarian syndrome,VXXB01bc3_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Condition noted, Visit 1"
+Polycystic ovarian syndrome,VXXB01bc3_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Condition noted, Visit 2"
+Polycystic ovarian syndrome,VXXB01bc3_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Condition noted, Visit 3"
+Polycystic ovarian syndrome,VXXB01bc3_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Condition noted, Visit 4"
+Polycystic ovarian syndrome,VXXB01bc3_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Gynecological Conditions, Polycystic ovary disease (PCOS) - Final Assessment: Condition present"
+"Systolic V1, Measure 1",V1BA06a1,1,0,0,0,(V1B) Resting blood pressure - Systolic (mm Hg) measure 1
+"Diastolic V1, Measure 1",V1BA06b1,1,0,0,0,(V1B) Resting blood pressure - Diastolic (mm Hg) measure 1
+"Systolic V2, Measure 1",V2BA02a1,0,1,0,0,(V2B) Resting blood pressure - Systolic measure 1 (mmHg)
+"Diastolic V2, Measure 1",V2BA02b1,0,1,0,0,(V2B) Resting blood pressure - Diastolic measure 1 (mmHg)
+"Systolic V3, Measure 1",V3BA02a1,0,0,1,0,(V3B) Resting blood pressure - Systolic measure 1 (mmHg)
+"Diastolic V3, Measure 1",V3BA02b1,0,0,1,0,(V3B) Resting blood pressure - Diastolic measure 1 (mmHg)
+Change in Blood Presseure,Systolic_CHG_V2,0,1,0,0,(V2 BP / V1 BP) - 1
+Change in Blood Presseure,Diastolic_CHG_V2,0,1,0,0,(V2 BP / V1 BP) - 1
+Change in Blood Presseure,Systolic_CHG_V3,0,0,1,0,(V3 BP / V2 BP) - 1
+Change in Blood Presseure,Diastolic_CHG_V3,0,0,1,0,(V3 BP / V2 BP) - 1
+Change in Blood Presseure,Systolic_CHG_V3_2,0,0,1,0,(V3 BP / V2 BP) - 1
+Change in Blood Presseure,Diastolic_CHG_V3_2,0,0,1,0,(V3 BP / V1 BP) - 1
+Mean Arterial Pressure,MAP_V1,1,0,0,0,(V1 Systolic BP + 2 * V1 Diastolic BP)/3
+Mean Arterial Pressure,MAP_V2,0,1,0,0,(V2 Systolic BP + 2 * V2 Diastolic BP)/3
+Mean Arterial Pressure,MAP_V3,0,0,1,0,(V3 Systolic BP + 2 * V3 Diastolic BP)/3
+Sleep apnea V1,V1LF01a,1,0,0,0,(V1L) Have you ever been told by a doctor or other health professionals that you have - Sleep apnea or obstructive sleep apnea
+Sleep apnea V3,V3LF01a,0,0,1,0,(V3L) Have you ever been told by a doctor or other health professionals that you have - Sleep apnea or obstructive sleep apnea
+"Left Uterine Artery PI, V1",U1CC07,1,0,0,0,(U1C) Left Uterine Artery - Pulsatility Index (PI)
+"Right Uterine Artery PI, V1",U1CD07,1,0,0,0,(U1C) Right Uterine Artery - Pulsatility Index (PI)
+"Left Uterine Artery PI, V2",U2CC07,0,1,0,0,(U2C) Left Uterine Artery - Pulsatility Index (PI)
+"Right Uterine Artery PI, V2",U2CD07,0,1,0,0,(U2C) Right Uterine Artery - Pulsatility Index (PI)
+"Left Uterine Artery PI, V3",U3CC07,0,0,1,0,(U3C) Left Uterine Artery - Pulsatility Index (PI)
+"Right Uterine Artery PI, V3",U3CD07,0,0,1,0,(U3C) Right Uterine Artery - Pulsatility Index (PI)
+parity,V1AE01,1,0,0,0,"(V1A) Including this pregnancy, how many times have you been pregnant - number of pregnancies"
+chronic renal insufficieny,CMAA02m14_SP,0,0,0,1,"(CMA) Providers PRIMARY reason for delivery - maternal medical condition or other obstetric condition - Renal disease, specify"
+chronic renal insufficieny,CMAA01m14_SP,0,0,0,1,"(CMA) Providers reasons for admission to L & D - Maternal medical condition(s) and/or other obstetric condition(s) - Renal disease, specify"
+chronic renal insufficieny,CMBA01l15_SP,0,0,0,1,"(CMB) Provider's reason for admission, encounter, or procedure, maternal medical conditions - Renal disease, specify"
+mother ischemic heat disease,CMAE03a1b,0,0,0,1,(CMA) Diabetes diagnosed - organ involvement - Ischemic heart disease (White Class H)
+mother ischemic heat disease,CMBA01l4a1b,0,0,0,1,"(CMB) Provider's reason for admission, encounter, or procedure, maternal medical conditions - Gestational diabetes, diabetes classification at admission, organ involvement if applicable, Ischemic heart disease (White Class H)"
+liver disease,VXXB01az_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Recent use of medication, Visit 1"
+liver disease,VXXB01az_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Recent use of medication, Visit 2"
+liver disease,VXXB01az_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Recent use of medication, Visit 3"
+liver disease,VXXB01az_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Recent use of medication, Visit 4"
+liver disease,VXXB01az_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Liver/gall bladder disease - Final Assessment: Condition present"
+fetal growth restriction,CMAA01f,0,0,0,1,(CMA) Provider's Reasons for Admission to L & D - Intrauterine fetal growth restriction
+fetal growth restriction,CMAE08,0,0,0,1,(CMA) Suspected intrauterine fetal growth restriction before delivery
+coagulation,VXXB01ar_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Condition noted, Visit 1"
+coagulation,VXXB01ar_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Condition noted, Visit 2"
+coagulation,VXXB01ar_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Condition noted, Visit 3"
+coagulation,VXXB01ar_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Condition noted, Visit 4"
+coagulation,VXXB01ar_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, History of blood clots (thrombosis or thromboembolism) or stroke - Final Assessment: Condition present"
+hypertension,VXXB01aa_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Condition noted, Visit 1"
+hypertension,VXXB01aa_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Condition noted, Visit 2"
+hypertension,VXXB01aa_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Condition noted, Visit 3"
+hypertension,VXXB01aa_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Condition noted, Visit 4"
+hypertension,VXXB01aa_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, High blood pressure (hypertension) - Final Assessment: Condition present"
+metabolic and cardiovascular abnormalities ,VXXB01ah_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Condition noted, Visit 1"
+metabolic and cardiovascular abnormalities ,VXXB01ah_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Condition noted, Visit 2"
+metabolic and cardiovascular abnormalities ,VXXB01ah_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Condition noted, Visit 3"
+metabolic and cardiovascular abnormalities ,VXXB01ah_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Condition noted, Visit 4"
+metabolic and cardiovascular abnormalities ,VXXB01ah_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Valvular heart disease - Final Assessment: Condition present"
+metabolic and cardiovascular abnormalities ,VXXB01ai_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Condition noted, Visit 1"
+metabolic and cardiovascular abnormalities ,VXXB01ai_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Condition noted, Visit 2"
+metabolic and cardiovascular abnormalities ,VXXB01ai_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Condition noted, Visit 3"
+metabolic and cardiovascular abnormalities ,VXXB01ai_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Condition noted, Visit 4"
+metabolic and cardiovascular abnormalities ,VXXB01ai_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Other structural heart disease - Final Assessment: Condition present"
+metabolic and cardiovascular abnormalities ,VXXB01aj_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Condition noted, Visit 1"
+metabolic and cardiovascular abnormalities ,VXXB01aj_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Condition noted, Visit 2"
+metabolic and cardiovascular abnormalities ,VXXB01aj_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Condition noted, Visit 3"
+metabolic and cardiovascular abnormalities ,VXXB01aj_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Condition noted, Visit 4"
+metabolic and cardiovascular abnormalities ,VXXB01aj_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Coronary artery disease / congestive heart failure (angina, heart attack, heart failure) - Final Assessment: Condition present"
+metabolic and cardiovascular abnormalities ,VXXB01ak_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Condition noted, Visit 1"
+metabolic and cardiovascular abnormalities ,VXXB01ak_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Condition noted, Visit 2"
+metabolic and cardiovascular abnormalities ,VXXB01ak_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Condition noted, Visit 3"
+metabolic and cardiovascular abnormalities ,VXXB01ak_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Condition noted, Visit 4"
+metabolic and cardiovascular abnormalities ,VXXB01ak_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Cardiac arrhythmias - Final Assessment: Condition present"
+chronic renal insufficieny,VXXB01al_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Kidney disease - Condition noted, Visit 1"
+chronic renal insufficieny,VXXB01al_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Kidney disease - Condition noted, Visit 2"
+chronic renal insufficieny,VXXB01al_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Kidney disease - Condition noted, Visit 3"
+chronic renal insufficieny,VXXB01al_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Kidney disease - Condition noted, Visit 4"
+chronic renal insufficieny,VXXB01al_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Kidney disease - Final Assessment: Condition present"
+chronic renal insufficieny,VXXB01al_SP,0,0,0,1,"(VXX) Medical conditions or diagnoses, Kidney disease - Specify"
+coagulation,VXXB01an_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Recent use of medication, Visit 1"
+coagulation,VXXB01an_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Recent use of medication, Visit 2"
+coagulation,VXXB01an_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Recent use of medication, Visit 3"
+coagulation,VXXB01an_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Recent use of medication, Visit 4"
+coagulation,VXXB01an_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Sickle cell disease - Final Assessment: Condition present"
+Thrombocytopenia,VXXB01ap_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Condition noted, Visit 1"
+Thrombocytopenia,VXXB01ap_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Condition noted, Visit 2"
+Thrombocytopenia,VXXB01ap_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Condition noted, Visit 3"
+Thrombocytopenia,VXXB01ap_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Condition noted, Visit 4"
+Thrombocytopenia,VXXB01ap_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Thrombocytopenia - Final Assessment: Condition present"
+Anemia,VXXB01aq_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Anemia - Recent use of medication, Visit 1"
+Anemia,VXXB01aq_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Anemia - Recent use of medication, Visit 2"
+Anemia,VXXB01aq_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Anemia - Recent use of medication, Visit 3"
+Anemia,VXXB01aq_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Anemia - Recent use of medication, Visit 4"
+Anemia,VXXB01aq_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Anemia - Final Assessment: Condition present"
+Antiphospholipid syndrome (APA),VXXB01at_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 1"
+Antiphospholipid syndrome (APA),VXXB01at_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 2"
+Antiphospholipid syndrome (APA),VXXB01at_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 3"
+Antiphospholipid syndrome (APA),VXXB01at_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Condition noted, Visit 4"
+Antiphospholipid syndrome (APA),VXXB01at_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Antiphospholipid syndrome (APA) or other acquired thrombophilia - Final Assessment: Condition present"
+Rheumatoid arthritis,VXXB01av_V1a,1,0,0,0,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Recent use of medication, Visit 1"
+Rheumatoid arthritis,VXXB01av_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Recent use of medication, Visit 2"
+Rheumatoid arthritis,VXXB01av_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Recent use of medication, Visit 3"
+Rheumatoid arthritis,VXXB01av_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Recent use of medication, Visit 4"
+Rheumatoid arthritis,VXXB01av_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Rheumatoid arthritis - Final Assessment: Condition present"
+liver disease,VXXB01ay_V2a,0,1,0,0,"(VXX) Medical conditions or diagnoses, Cholestasis of pregnancy - Condition noted, Visit 2"
+liver disease,VXXB01ay_V3a,0,0,1,0,"(VXX) Medical conditions or diagnoses, Cholestasis of pregnancy - Condition noted, Visit 3"
+liver disease,VXXB01ay_V4a,0,0,0,1,"(VXX) Medical conditions or diagnoses, Cholestasis of pregnancy - Condition noted, Visit 4"
+liver disease,VXXB01ay_FA,0,0,0,1,"(VXX) Medical conditions or diagnoses, Cholestasis of pregnancy - Final Assessment: Condition present"
+LDL,DT_CHOL,1,0,0,0,"Cholesterol, mg"
+LDL,DT_SFAT,1,0,0,0,"Saturated fat, grams"
+LDL,DT_MFAT,1,0,0,0,"Monounsaturated fatty acids, grams"
+LDL,DT_PFAT,1,0,0,0,"Polyunsaturated fatty acids, grams"
+Feature from FI,CMAH01b3,0,0,0,1,(CMA) Results of complete blood count: - Hemoglobin (g/dL)
+Feature from FI,CMAH01b6,0,0,0,1,(CMA) Results of complete blood count: - Platelet count x10^3 / mm^3 (x10^3 /μL)
+Feature from FI,V1BA04a,1,0,0,0,(V1B) Waist circumference over iliac crest - Measure 1 (cm)
+Feature from FI,V1BA07a,1,0,0,0,(V1B) Neck circumference - Measure 1 (cm)
+Feature from FI,U1CC06,1,0,0,0,(U1C) Left Uterine Artery - Resistance Index (RI)
+Feature from FI,U1CD06,1,0,0,0,(U1C) Right Uterine Artery - Resistance Index (RI)
+Feature from FI,U2CC06,0,1,0,0,(U2C) Left Uterine Artery - Resistance Index (RI)
+Feature from FI,U2CD06,0,1,0,0,(U2C) Right Uterine Artery - Resistance Index (RI)
+Feature from FI,U3CC06,0,0,1,0,(U3C) Left Uterine Artery - Resistance Index (RI)
+Feature from FI,U3CD06,0,0,1,0,(U3C) Right Uterine Artery - Resistance Index (RI)
+Feature from FI,U1CC09,1,0,0,0,(U1C) Left Uterine Artery - Early diastolic notch present
+Feature from FI,U1CD09,1,0,0,0,(U1C) Right Uterine Artery - Early diastolic notch present
+Feature from FI,U2CC09,0,1,0,0,(U2C) Left Uterine Artery - Early diastolic notch present
+Feature from FI,U2CD09,0,1,0,0,(U2C) Right Uterine Artery - Early diastolic notch present
+Feature from FI,U3CC09,0,0,1,0,(U3C) Left Uterine Artery - Early diastolic notch present
+Feature from FI,U3CD09,0,0,1,0,(U3C) Right Uterine Artery - Early diastolic notch present
+Feature from FI,CLAC01f2,1,0,0,0,(CLA) Inhibin A (DIA) Results - Multiples of the median (MoM)
+Feature from FI,CLAC01f1,1,0,0,0,(CLA) Inhibin A (DIA) Results - Value pg/mL
+Feature from FI,U2BC01,0,1,0,0,(U2B) Disclosable condition
+Feature from FI,CLAD01a2,0,0,1,0,"(CLA) Third Trimester Lab Studies (> 24 0 weeks) Blood count, Lowest hemoglobin during third trimester before labor and delivery - Result g/dL"
+Feature from FI,CLAA01d,1,0,0,0,(CLA) Complete blood count - Platelet count x10 3 /mm 3 (x10 3 μL)
+Feature from FI,U2CC05,0,1,0,0,(U2C) Left Uterine Artery - Systolic/Diastolic Ratio (S/D)
+Feature from FI,U3DD02b3,0,0,1,0,"(U3D) Adrenal Gland Measurements, Fetal zone - Length in mm (3)"
+Feature from FI,V3CA07,0,0,1,0,(V3C) Edinburgh Postnatal Depression Scale - I have been so unhappy that I have had difficulty sleeping.
+Feature from FI,U3AB04,0,0,1,0,(U3A) Fetal cardiac activity - Abdominal Circumference (cm)
+Feature from FI,U2CC04,0,1,0,0,(U2C) Left Uterine Artery - Peak Systolic Velocity (PSV) (cm/sec)
+placental analytes,ENDOGLIN_1,0,1,0,0,Endoglin (ng/mL)
+placental analytes,ENDOGLIN,1,0,0,0,Endoglin (ng/mL)
+placental analytes,INHIBINA_1,0,1,0,0,Inhibin A (pg/mL)
+placental analytes,PLGF_1,0,1,0,0,Placental growth factor (PLGF) (pg/mL)
+placental analytes,VEGF_1,0,1,0,0,Vascular endothelial growth factor (VEGF) (pg/mL)
+placental analytes,PAPPA_1,0,1,0,0,Pregnancy-associated plasma protein A (PAPP-A) (mU/mL)
+placental analytes,AFP_1,0,1,0,0,Alpha fetoprotein (AFP) (IU/mL)
+placental analytes,VEGF,1,0,0,0,Vascular endothelial growth factor (VEGF) (pg/mL)
+placental analytes,fbHCG_1,0,1,0,0,Free beta human chorionic gonadotropin (fbHCG) (ng/mL)
+placental analytes,INHIBINA,1,0,0,0,Inhibin A (pg/mL)
+placental analytes,ADAM12,1,0,0,0,ADAM-12 (ng/mL)
+placental analytes,ADAM12_1,0,1,0,0,ADAM-12 (ng/mL)
+placental analytes,AFP,1,0,0,0,Alpha fetoprotein (AFP) (IU/mL)
+placental analytes,SFLT1_1,0,1,0,0,Soluble fms-like tyrosine kinase 1 (sFlt-1) (pg/mL)
+placental analytes,fbHCG,1,0,0,0,Free beta human chorionic gonadotropin (fbHCG) (ng/mL)
